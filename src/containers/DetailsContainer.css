@@ -1,0 +1,41 @@
+.personHeader {
+    display: flex;
+    justify-content: center;
+}
+
+.personHeader img {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+.imageContainer{
+    width: 150px;
+    padding: 0 5%;
+    height: 150px;
+}
+
+.descriptionContainer{
+    margin: 10px 0 30px 0;
+}
+
+.likesitem{
+    display: flex;
+    flex-direction: row;
+}
+
+.likesContainer{
+    padding: 0 10%;
+}
+
+.likesitem span{
+    display: flex;
+    flex: 1;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    justify-content: center;
+}
+
+.likesitem:nth-of-type(even) {
+    background-color: lightgray;
+}

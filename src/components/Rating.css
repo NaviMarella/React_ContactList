@@ -1,0 +1,9 @@
+.ratingContainer{
+    display: flex;
+    flex-direction: row;
+}
+
+.ratingInfo{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,18 @@
+.btn {
+    border: none;
+    color: white;
+    overflow: hidden;
+    padding: 0;
+    text-transform: uppercase;
+    width: 150px;
+    height: 50px;
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btn-success {
+    background-color: rgb(10, 48, 10);
+}

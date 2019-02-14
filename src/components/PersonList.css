@@ -1,0 +1,24 @@
+.personListContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.personListItem {
+    border: 2px solid lightgray;
+    padding: 20px 10px;
+    font-size: 18px;
+    font-weight: bold;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.personIcon{
+    transform: rotate(90deg);
+}
+
+.selectedPerson{
+    background-color: #F7C41F;
+    color: white;
+}
